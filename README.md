@@ -1,6 +1,22 @@
 Mijia-720P-hack project
 =======================
+# Update 2024-04-08
+Currently SDK is available to download here:
 
+https://git.blackmarble.sh/SDKs/gm8136/-/tree/main/Software/Embedded_Linux/source?ref_type=heads
+
+<pre>
+a7240129f0eb5bcb990f62cde16f803f72b6544a0c3d23f49bab01130ec12eb7  arm-linux-3.3_2015-01-09.tgz
+2f3898886129c14d08cac159f8798a538385c343234b4227fc964e606e5e7887  gm_lib_2015-01-09-IPCAM.tgz
+751ba19db68246628767cf0c8d4f0017eac00261a55e0cc6b39514fe80987dfc  toolchain_gnueabi-4.4.0_ARMv5TE.tgz
+</pre>
+
+To compile using docker:
+(place all sdk tgz files into some dir and edit `run.sh` with that dir)
+```
+./build.sh
+./run.sh
+```
 WARNING - DISCLAIMER
 ====================
 **Many files on the Mijia 720P are writable. Be very careful when you modify files on it, you might brick it forever.**
