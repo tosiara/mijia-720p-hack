@@ -23,7 +23,7 @@ GMSAMPLEDIR := $(GMLIBDIR)/samples
 BINS = smbpasswd scp dbclient arm-php arm-php-cgi mijia_ctrl
 SBINS = dropbear lighttpd smbd
 
-ZLIBVERSION = 1.2.11
+ZLIBVERSION = 1.3.1
 ZLIBARCHIVE = zlib-$(ZLIBVERSION).tar.gz
 ZLIBURI = https://www.zlib.net/$(ZLIBARCHIVE)
 LIBXML2VERSION = 2.9.7
@@ -40,7 +40,7 @@ LIBGDARCHIVE = libgd-$(LIBGDVERSION).tar.gz
 LIBGDURI = https://github.com/libgd/libgd/releases/download/gd-$(LIBGDVERSION)/$(LIBGDARCHIVE)
 PCREVERSION = 8.41
 PCREARCHIVE = pcre-$(PCREVERSION).zip
-PCREURI = https://ftp.pcre.org/pub/pcre/$(PCREARCHIVE)
+PCREURI = https://netix.dl.sourceforge.net/project/pcre/pcre/$(PCREVERSION)/$(PCREARCHIVE)
 DROPBEARVERSION = 2017.75
 DROPBEARARCHIVE = dropbear-$(DROPBEARVERSION).tar.bz2
 DROPBEARURI = https://matt.ucc.asn.au/dropbear/releases/$(DROPBEARARCHIVE)
